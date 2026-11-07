@@ -1,7 +1,8 @@
+# Create your views here.
 from django.shortcuts import render
-
 
 # Create your views here.
 from django.http import HttpResponse
+
 def index(request):
-    return HttpResponse("hello world. you're at the google_photos app index.")
+    return HttpResponse("Hello, Django is working google_photos!")
